@@ -64,6 +64,7 @@ img{
   justify-content: baseline;
   border: solid;
 
+
 }
 
 
@@ -106,20 +107,45 @@ footer {
 
 @media screen and (max-width:968px) {
 *{
-  font-size: medium;
+  font-size: 12px;
+}
+div, p {
+  font: 12px
 }
 
+.AboutMeFlex , .MyProjectsFlex, .ContactMeFlex{
+  flex-direction: column;
+  align-items: center;
+}
 .ContactMeFlex{
-  flex: 0 1 auto;
+  font-size: 10px;
+  gap: 10;
 }
 }
 
-@media screen and (max-width: 425px) {
-*{
-  font-size: smaller;
-}
+@media screen and (max-width:500px) {
+  *{
+    font-size: 10px;
+  }
+  div, p {
+    font: 10px
+  }
+  
+  .AboutMeFlex , .MyProjectsFlex, .ContactMeFlex{
+    flex-direction: column;
+    align-items: center;
+  }
+  .ContactMeFlex{
+    font-size: 8px;
+    gap: 8px;
+  }
 
-.ContactMeFlex{
-  flex: 0 1 auto;
-}
-}
+  #MyProjectsHover{
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+    align-items: center;
+  }
+  }
