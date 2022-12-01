@@ -1,0 +1,131 @@
+:root{
+  --white: white;
+  --dark: #13293d;
+
+}
+
+*{
+  font-family: monospace;
+  background-color: var(--dark);
+  color: var(--white);
+  font-size: large;
+
+}
+header {
+  padding: 40px;
+  text-align: center;
+  background: var(--dark);
+  color: var(--white);
+  font-size: 20px;
+}
+
+h2{
+  margin: 2.5%;
+  padding: 2.5%;
+  border: 2.5%;
+  text-align: center;
+  border: solid;
+  background-color: var(--white);
+  color: var(--dark);
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--white);
+}
+
+nav a {
+  color: #13293d;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: var(--white);
+}
+
+img{
+  display:block;
+  border-radius: 25px;
+  margin: 10px;
+  border: 10px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--white);
+}
+
+
+
+.AboutMeFlex{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 25px;
+  align-items: baseline;
+  justify-content: baseline;
+  border: solid;
+
+}
+
+
+.MyProjectsFlex{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: solid;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+
+
+#MyProjectsHover:hover{
+  filter: brightness(50%);
+  transform: scale(1.2);
+}
+
+#MyPicHover:hover{
+  filter: brightness(75%);
+  transform: scale(1.5);
+}
+
+a:active{
+  border-radius: 25px;
+  background-color: green;
+}
+
+
+.ContactMeFlex{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 25px;
+  align-items: baseline;
+  justify-content: space-around;
+  border: solid;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background:var(--dark);
+  color: var(--white);
+  margin-top: auto;
+}
+
+@media screen and (max-width:968px) {
+*{
+  font-size: medium;
+}
+
+.ContactMeFlex{
+  flex: 0 1 auto;
+}
+}
+
+@media screen and (max-width: 425px) {
+*{
+  font-size: smaller;
+}
+
+.ContactMeFlex{
+  flex: 0 1 auto;
+}
+}
