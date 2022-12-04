@@ -19,6 +19,10 @@ header {
   font-size: 20px;
 }
 
+h1{
+font-size: larger;
+}
+
 h2{
   margin: 2.5%;
   padding: 2.5%;
