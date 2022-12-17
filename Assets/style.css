@@ -125,7 +125,60 @@ div, p {
   font-size: 10px;
   gap: 10;
 }
+
+.Porject1{
+
+  width: fit-content;
+  height: fit-content;
+
 }
+
+}
+
+
+@media screen and (max-width: 750px){
+
+  .Porject1{
+
+    width: fit-content;
+    height: fit-content;
+  
+  }
+
+  *{
+    font-size: 10px;
+  }
+  div, p {
+    font: 10px
+  }
+  
+  .AboutMeFlex , .MyProjectsFlex, .ContactMeFlex{
+    flex-direction: column;
+    align-items: center;
+  }
+  .ContactMeFlex{
+    font-size: 8px;
+    gap: 8px;
+  }
+
+  .Porject1{
+
+    width: fit-content;
+    height: fit-content;
+  
+  }
+
+  #MyProjectsHover{
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+    align-items: center;
+  }
+  }
+
+
 
 @media screen and (max-width:500px) {
   *{
@@ -142,6 +195,13 @@ div, p {
   .ContactMeFlex{
     font-size: 8px;
     gap: 8px;
+  }
+
+  .Porject1{
+
+    width: fit-content;
+    height: fit-content;
+  
   }
 
   #MyProjectsHover{
